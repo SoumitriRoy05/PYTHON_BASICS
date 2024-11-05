@@ -1,0 +1,8 @@
+s = {6, 10, 32, 5,56, 5, 5, "Soumitri"}
+
+print(s, type(s))   #{32, 'Soumitri', 5, 6, 56, 10} <class 'set'>
+
+s.add(566)
+print(s, type(s))  #{32, 5, 6, 566, 56, 10, 'Soumitri'} <class 'set'>
+s.remove(1)
+print(s, type(s))

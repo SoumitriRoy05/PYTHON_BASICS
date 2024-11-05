@@ -1,0 +1,5 @@
+s=set()
+s.add(40)
+s.add(40.0)
+s.add('60')
+print(len(s))
